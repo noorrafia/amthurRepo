@@ -2,7 +2,7 @@ public class ContactTriggerHandler
 {
     public static void OnAfterInsert(List<Contact> newlist)//After Insert new accid in accids in contact object update the size of contacts
     {
-        //take id 
+        
         Set<id> accountIds = new Set<id>();
         for(Contact c:newlist)
         {

@@ -8,7 +8,7 @@ public class AccountAddressTriggerclass
             if(a.Match_Billing_Address__c == true)
             {
                 
-                a.ShippingPostalCode = a.BillingPostalCode;//assign billing address to shipping
+                a.ShippingPostalCode = a.BillingPostalCode;
                 
             }
         }
